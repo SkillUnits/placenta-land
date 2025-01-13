@@ -1,0 +1,347 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Poppins", serif;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+nav {
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0 25px 0;
+}
+nav h1 {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+}
+nav p {
+    font-family: "Poppins", serif;
+    font-size: 42px;
+    letter-spacing: 0.5px;
+    margin-top: -25px;
+    text-align: center;
+}
+header {
+    width: 100%;
+    height: 500px;
+    background-color: #fbd1d3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    column-gap: 100px;
+}
+
+.header-left {
+    padding: 44px 0 44px 104px;
+}
+.header-left img {
+    max-width: 540px;
+}
+
+.header-center {
+    max-width: 440px;
+    width: 100%;
+}
+.form-to-fill p {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+.form-to-fill h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+}
+.timer {
+    color: #FF0000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+input {
+    width: 355px;
+    height: 65px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 254, 254, 0.85);
+    border-radius: 4px;
+    border: none;
+    padding-left: 18px;
+    font-size: 20px;
+    color: #3b3b3b;
+    outline: none;
+}
+input::placeholder {
+    font-size: 20px;
+    color: #7E7E7E;
+}
+.form-button {
+    width: 375px;
+    height: 65px;
+    border-radius: 4px;
+    border: none;
+    background-color: #FBA3A3;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header-right {
+    letter-spacing: 6px;
+    font-weight: 700;
+}
+.price-discount {
+    display: flex;
+    flex-direction: row;
+}
+.old-price {
+    font-size: 32px;
+    color: #ACACAC;
+}
+.discount-card {
+    width: 155px;
+    height: 68px;
+    background-color: #FF0000;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    margin-left: 8px;
+}
+.price {
+    font-size: 48px;
+    color: #fff;
+    margin-top: -10px;
+}
+.cream-image {
+    width: 190px;
+}
+
+main {
+    width: 100%;
+}
+.clients {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+.clients-photos {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.clients-photos img {
+    width: 400px;
+}
+
+.orders {
+    width: 100%;
+    background-color: #fbd1d3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+.orders-inner {
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 60px;
+}
+.orders-text {
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    width: 50%;
+    max-width: 500px;
+}
+.orders-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.order-button {
+    width: 300px;
+    height: 50px;
+    background: #FBA3A3;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.facts-section {
+    padding-top: 100px;
+    width: 100%;
+}
+.facts {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    width: fit-content;
+    padding: 50px 0 0 0;
+}
+.fact-card {
+    max-width: 280px;
+    background-color: #fbd1d3;
+    border-radius: 6px;
+}
+.fact-image img {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.fact-content {
+    padding: 30px 20px;
+    color: #fff;
+}
+.fact-content h3 {
+    margin-bottom: 20px;
+}
+
+.way-section {
+    width: 100%;
+    padding-top: 100px;
+}
+.way-section .caption {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.ways-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.way-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    text-align: center;
+}
+.way-title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+.way-content {
+    min-height: 50px;
+}
+
+.paragraph {
+    font-size: 20px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.ways-button {
+    margin: 80px auto;
+}
+
+.feedback-section {
+    width: 100%;
+}
+.feedback-container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 0;
+}
+.feedback {
+    max-width: 970px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.avatar {
+    width: 125px;
+    border-radius: 100%;
+}
+.client-info p {
+    text-align: center;
+}
+.feedback-content {
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+footer {
+    width: 100%;
+    background-color: #fbd1d3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    column-gap: 100px;
+}
+.footer-inner {
+    max-width: 1440px;
+    height: 400px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+}
+.footer-left {
+    letter-spacing: 6px;
+    font-weight: 700;
+    padding-left: 100px;
+}
+.footer-right p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer-bottom {
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+    padding: 50px 0;
+}

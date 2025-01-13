@@ -1,0 +1,133 @@
+@media screen and (max-width: 760px) {
+    .desktop {
+        display: none !important;
+    }
+    nav h1 {
+        font-size: 42px;
+    }
+    nav p {
+        font-size: 36px;
+        margin-top: -15px;
+    }
+    header {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-left {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .header-left img {
+        width: 90%;
+    }
+    .header-right {
+        padding-top: 50px;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .header-center {
+        padding-top: 100px;
+    }
+    .form-to-fill p {
+        margin-left: 10px;
+    }
+    .form-to-fill h1 {
+        margin-left: 10px;
+    }
+    form {
+        padding-bottom: 100px;
+    }
+    .swiper {
+        max-width: 400px;
+        width: 100%;
+        height: 320px;
+    }
+    .swiper-slide {
+        display: flex !important;
+        justify-content: center;
+    }
+    .swiper-slide img {
+        max-height: 280px;
+        width: 90%;
+        
+    }
+    .clients {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .orders-inner {
+        flex-direction: column;
+    }
+    .orders-text {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .orders-button-container {
+        margin: 0 auto;
+        width: 100%;
+        padding: 30px 0 0 0;
+    }
+    .facts-section {
+        padding-top: 50px;
+    }
+    .facts {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .way-section {
+        padding-top: 60px;
+    }
+    .ways-container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 60px;
+    }
+    .paragraph {
+        max-width: 1280px;
+        width: 90%;
+    }
+    .feedback-section {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .avatar {
+        width: 75px;
+    }
+    .client-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-width: 80px;
+    }
+    .feedback-content {
+        padding-left: 20px;
+        font-size: 16px;
+    }
+    .footer-inner {
+        flex-direction: column;
+        height: fit-content;
+    }
+    .footer-left {
+        letter-spacing: 6px;
+        font-weight: 700;
+        padding-left: 100px;
+        margin-top: 60px;
+    }
+    .footer-right {
+        margin: 30px 0 50px 0;
+    }
+}
+
+@media screen and (min-width: 761px) {
+    .mobile {
+        display: none !important;
+    }
+}
