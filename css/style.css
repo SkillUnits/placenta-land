@@ -4,6 +4,7 @@ html {
 body {
     font-family: "Poppins", serif;
     margin: 0;
+    overflow-x: hidden;
 }
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
@@ -16,13 +17,12 @@ nav {
     max-width: 1440px;
     width: 90%;
     margin: 0 auto;
-    padding: 20px 0 25px 0;
+    padding: 10px 0 10px 100px;
 }
 nav h1 {
     font-family: "Poppins", serif;
     font-weight: 700;
     font-size: 56px;
-    text-align: center;
 }
 nav p {
     font-family: "Poppins", serif;
@@ -103,6 +103,7 @@ input::placeholder {
 .header-right {
     letter-spacing: 6px;
     font-weight: 700;
+    padding-right: 20px;
 }
 .price-discount {
     display: flex;
