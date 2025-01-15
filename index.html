@@ -18,23 +18,19 @@
 </head>
 <body>
     <nav id="top">
-        <h1>PLACENTA</h1>
+        <div class="nav-container">
+            <div class="nav-left">
+                <h1>PLACENTA</h1>
+                <p>FIRMING CREAM</p>
+            </div>
+            <div class="nav-right">
+                <a class="buy-button" href="">Kup</a>
+            </div>
+        </div>
     </nav>
     <header>
-        <div class="header-left desktop">
+        <div class="header-left">
             <img src="images/Instagram_post_-_1034-removebg.png" alt="">
-        </div>
-        <div class="header-right mobile">
-            <div class="price-discount">
-                <div class="old-price">
-                    <p><s>193zł</s></p>
-                </div>
-                <div class="discount-card">
-                    50%<br> ZNIŻKA!
-                </div>
-            </div>
-            <p class="price">129 zł</p>
-            <img class="cream-image" src="images/cream.png" alt="">
         </div>
         <div class="header-center">
             <div class="form-to-fill">
@@ -47,7 +43,19 @@
                 </form>
             </div>
         </div>
-        <div class="header-right desktop">
+        <div class="header-right">
+            <div class="price-discount-bg"></div>
+            <div class="price-discount-border"></div>
+            <div class="discount-card">
+                50%<br> ZNIŻKA!
+            </div>
+            <div class="price">
+                <p class="old-price"><s>193zł</s></p>
+                <p class="new-price">129 zł</p>
+            </div>
+            <img class="cream-image" src="images/cream.png" alt="">
+        </div>
+        <!-- <div class="header-right">
             <div class="price-discount">
                 <div class="old-price">
                     <p><s>193zł</s></p>
@@ -58,15 +66,42 @@
             </div>
             <p class="price">129 zł</p>
             <img class="cream-image" src="images/cream.png" alt="">
-        </div>
+        </div> -->
     </header>
     <main>
         <section class="clients">
             <h2>Zdjęcia klientów</h2>
-            <div class="clients-photos medium-sc-hide">
-                <img src="images/Instagram post - 907.png" alt="">
-                <img src="images/Instagram post - 909.png" alt="">
-                <img src="images/Instagram post - 915.png" alt="">
+            <div class="swiper medium-sc-hide">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/Instagram post - 907.png" alt="">
+                        <img src="images/Instagram post - 909.png" alt="">
+                        <img src="images/Instagram post - 915.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/photo 4.png" alt="">
+                        <img src="images/photo 5.png" alt="">
+                        <img src="images/photo 6.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/photo 7.png" alt="">
+                        <img src="images/photo 8.png" alt="">
+                        <img src="images/photo 9.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/photo 10.png" alt="">
+                        <img src="images/photo 11.png" alt="">
+                        <img src="images/photo 12.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/photo 13.png" alt="">
+                        <img src="images/photo 14.png" alt="">
+                        <img src="images/photo 15.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
             <div class="swiper medium-sc">
                 <div class="swiper-wrapper">
@@ -79,17 +114,71 @@
                     <div class="swiper-slide">
                         <img src="images/Instagram post - 915.png" alt="">
                     </div>
+                    <div class="swiper-slide">
+                        <img src="images/photo 4.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/photo 5.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/photo 6.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/photo 7.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/photo 8.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/photo 9.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/photo 10.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/photo 11.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/photo 12.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/photo 13.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/photo 14.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/photo 15.png" alt="">
+                    </div>
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
         </section>
         <section class="orders">
             <div class="orders-inner">
-                <div class="orders-text">
-                    <p>Już <strong>15 442</strong> kobiety pozytywnie oceniły skuteczność działania <strong>PLACENTA</strong>. Teraz twoja kolej: </p>
+                <div class="orders-left">
+                    <div class="orders-left-container">
+                        <p>
+                            Już <strong>15 442</strong> kobiety pozytywnie oceniły skuteczność działania <strong>PLACENTA</strong>. Teraz twoja kolej:
+                        </p>
+                        <a class="order-button" href="">Zamówić z rabatem</a>
+                    </div>
+                    
+                    <div class="dotted-border">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
                 </div>
-                <div class="orders-button-container">
-                    <a class="order-button" href="#top">Zamówić z rabatem</a>
+                <div class="orders-right">
+
                 </div>
             </div>
         </section>
@@ -179,37 +268,206 @@
                     </p>
                 </div>
             </div>
-            <p class="paragraph"><strong>PLACENTA</strong> zaleca się stosować do momentu utrwalenia rezultatu (widoczne odmłodzenie skóry do 2-3 lat w zależności od wieku). Kolejne kursy mogą być powtarzane co sześć miesięcy. </p>
+            <div class="ways-caption">
+                <div class="ways-caption-container">
+                    <p class="paragraph"><strong>PLACENTA</strong> zaleca się stosować do momentu utrwalenia rezultatu (widoczne odmłodzenie skóry do 2-3 lat w zależności od wieku). Kolejne kursy mogą być powtarzane co sześć miesięcy. </p>
+                </div>
+                <div class="dotted-border">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div class="desktop"></div>
+                    <div class="desktop"></div>
+                    <div class="desktop"></div>
+                    <div class="desktop"></div>
+                    <div class="desktop"></div>
+                    <div class="desktop"></div>
+                    <div class="desktop"></div>
+                    <div class="desktop"></div>
+                    <div class="desktop"></div>
+                    <div class="desktop"></div>
+                    <div class="medium-sc-hide"></div>
+                    <div class="medium-sc-hide"></div>
+                    <div class="medium-sc-hide"></div>
+                    <div class="medium-sc-hide"></div>
+                    <div class="medium-sc-hide"></div>
+                </div>
+            </div>
             <a class="order-button ways-button" href="#top">Zamówić z rabatem</a>
         </section>
         <section class="feedback-section">
             <h2>OPINIE KLIENTÓW</h2>
             <div class="feedback-container">
                 <div class="feedback">
-                    <div class="client-info">
-                        <img class="avatar" src="images/Anna Dymna.jpg" alt="">
-                        <p>Anna Dymna</p>
-                    </div>
-                    <div class="feedback-content">
-                        Dziewczyny, chcę się podzielić moimi wynikami. Jestem zszokowana, ale to naprawdę działa! Wszystkie inne kosmetyki wyrzuciłam do kosza - teraz tylko PLACENTA!
-                    </div>
-                </div>
-                <div class="feedback">
-                    <div class="client-info">
-                        <img class="avatar" src="images/Beata.jpg" alt="">
-                        <p>Beata Tyszkiewicz</p>
-                    </div>
-                    <div class="feedback-content">
-                        Miałam szczęście dostać ten produkt z rabatem, ponieważ wzięłam go na prezent dla mojej mamy. Efekt jest niesamowity, nie mogę w to uwierzyć. Zamówiłam go również dla siebie za pełną cenę, ale warto.
+                    <div class="feedback-inner">
+                        <div class="client-info">
+                            <img class="avatar" src="images/Anna Dymna.jpg" alt="">
+                            <p>Anna Dymna</p>
+                        </div>
+                        <div class="feedback-content">
+                            Dziewczyny, chcę się podzielić moimi wynikami. Jestem zszokowana, ale to naprawdę działa! Wszystkie inne kosmetyki wyrzuciłam do kosza - teraz tylko PLACENTA!
+                        </div>
                     </div>
                 </div>
                 <div class="feedback">
-                    <div class="client-info">
-                        <img class="avatar" src="images/Maria.jpg" alt="">
-                        <p>Maria Peszek</p>
+                    <div class="feedback-inner">
+                        <div class="client-info">
+                            <img class="avatar" src="images/Beata.jpg" alt="">
+                            <p>Beata Tyszkiewicz</p>
+                        </div>
+                        <div class="feedback-content">
+                            Miałam szczęście dostać ten produkt z rabatem, ponieważ wzięłam go na prezent dla mojej mamy. Efekt jest niesamowity, nie mogę w to uwierzyć. Zamówiłam go również dla siebie za pełną cenę, ale warto. 
+                        </div>
                     </div>
-                    <div class="feedback-content">
-                        Próbowałam wielu kremów, nic nie działa. Chciałam nawet skorzystać z zastrzyków, ale zdecydowałam się wypróbować ten krem. W moim przypadku rezultat jest bardzo widoczny - zmarszczki na czole rozprostowały się, skóra napięła się i stała się przyjemniejsza w dotyku. To jest cud!
+                </div>
+                <div class="feedback">
+                    <div class="feedback-inner">
+                        <div class="client-info">
+                            <img class="avatar" src="images/Maria.jpg" alt="">
+                            <p>Maria Peszek</p>
+                        </div>
+                        <div class="feedback-content">
+                            Próbowałam wielu kremów, nic nie działa. Chciałam nawet skorzystać z zastrzyków, ale zdecydowałam się wypróbować ten krem. W moim przypadku rezultat jest bardzo widoczny - zmarszczki na czole rozprostowały się, skóra napięła się i stała się przyjemniejsza w dotyku. To jest cud! 
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback">
+                    <div class="feedback-inner">
+                        <div class="client-info">
+                            <img class="avatar" src="images/AnnaKowalska.png" alt="">
+                            <p>Anna Kowalska</p>
+                        </div>
+                        <div class="feedback-content">
+                            Zawsze sceptycznie podchodziłam do obietnic kremów odmładzających, ale Placenta Firming Cream mnie totalnie zaskoczył. Mam suchą skórę, szczególnie zimą, i ten krem nie tylko poradził sobie z suchością, ale też poprawił koloryt mojej twarzy. Patrzę w lustro i widzę świeższą, wypoczętą siebie😍 Polecam każdemu, kto szuka lekkiego i naturalnego wsparcia!
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback">
+                    <div class="feedback-inner">
+                        <div class="client-info">
+                            <img class="avatar" src="images/Zofia.png" alt="">
+                            <p>Zofia Nowak</p>
+                        </div>
+                        <div class="feedback-content">
+                            Po czterdziestce zauważyłam, że moja skóra traci jędrność, szczególnie wokół oczu i policzków. Koleżanka poleciła mi Placenta Firming Cream i postanowiłam spróbować. Już po dwóch tygodniach twarz wyglądała bardziej napięta, a koloryt skóry stał się równomierny. Pierwszy krem, który naprawdę działa! 🙌
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback">
+                    <div class="feedback-inner">
+                        <div class="client-info">
+                            <img class="avatar" src="images/Karolina.png" alt="">
+                            <p>Karolina Jabłońska</p>
+                        </div>
+                        <div class="feedback-content">
+                            Praca w biurze, stres i wieczne niedosypianie mocno odbiły się na mojej skórze. Była matowa, zmęczona, bez życia. Placenta Firming Cream to moje wybawienie. Dosłownie odświeżył moją twarz, przywrócił jędrność i zdrowy blask👏 Teraz poranne i wieczorne rytuały z tym kremem to mój must-have!
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback">
+                    <div class="feedback-inner">
+                        <div class="client-info">
+                            <img class="avatar" src="images/Ewa.png" alt="">
+                            <p>Ewa Mazur</p>
+                        </div>
+                        <div class="feedback-content">
+                            Mam 50 lat i zawsze dbałam o siebie, ale z wiekiem skóra wymaga czegoś więcej. Placenta Firming Cream okazał się strzałem w dziesiątkę. Szybko się wchłania, nie zostawia tłustego filmu, a co najważniejsze – działa! Koleżanki pytają, co robię, że tak dobrze wyglądam. 😊
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback">
+                    <div class="feedback-inner">
+                        <div class="client-info">
+                            <img class="avatar" src="images/Agnieszka.png" alt="">
+                            <p>Agnieszka Kaczmarek</p>
+                        </div>
+                        <div class="feedback-content">
+                            Placenta Firming Cream to mój osobisty sekret promiennej skóry! Szukałam czegoś, co pomoże mi po 45 latach, i ten krem spełnił wszystkie moje oczekiwania. Skóra jest miękka, aksamitna, a ja czuję się świetnie👏
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback">
+                    <div class="feedback-inner">
+                        <div class="client-info">
+                            <img class="avatar" src="images/Magdalena.png" alt="">
+                            <p>Magdalena Dąbrowska</p>
+                        </div>
+                        <div class="feedback-content">
+                            Często pracuję do późna, a rano moja twarz wygląda na zmęczoną. Od kiedy używam Placenta Firming Cream, wszystko się zmieniło. Skóra jest bardziej napięta, a twarz świeża i wypoczęta🙌❤ Idealny krem dla zapracowanych kobiet!
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback">
+                    <div class="feedback-inner">
+                        <div class="client-info">
+                            <img class="avatar" src="images/BeataMalinowska.png" alt="">
+                            <p>Beata Malinowska</p>
+                        </div>
+                        <div class="feedback-content">
+                            Szczerze mówiąc, nie wierzyłam, że coś może jeszcze pomóc mojej skórze. Ale Placenta Firming Cream przebił wszystkie moje oczekiwania. Po miesiącu stosowania skóra jest jędrniejsza, drobne zmarszczki wygładzone, a koloryt twarzy – jaśniejszy❤😍 Teraz zawsze mam ten krem pod ręką.
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback">
+                    <div class="feedback-inner">
+                        <div class="client-info">
+                            <img class="avatar" src="images/Katarzyna.png" alt="">
+                            <p>Katarzyna Czarnecka</p>
+                        </div>
+                        <div class="feedback-content">
+                            Mam wrażliwą skórę i ostrożnie dobieram kosmetyki. Placenta Firming Cream był strzałem w dziesiątkę! Nie podrażnia, a wręcz przeciwnie – koi skórę. Po kilku tygodniach widzę, że moja cera jest bardziej świeża i miękka. Super!🙌❤
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback">
+                    <div class="feedback-inner">
+                        <div class="client-info">
+                            <img class="avatar" src="images/Joanna.png" alt="">
+                            <p>Joanna Zawadzka</p>
+                        </div>
+                        <div class="feedback-content">
+                            Z wiekiem zauważyłam, że kremy, które używałam wcześniej, przestały działać. Placenta Firming Cream to totalne odkrycie. Skóra jest napięta, drobne zmarszczki zniknęły. To nie jest tylko krem, to mój sposób na pewność siebie! 💕
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback">
+                    <div class="feedback-inner">
+                        <div class="client-info">
+                            <img class="avatar" src="images/MariaLisowska.png" alt="">
+                            <p>Maria Lisowska</p>
+                        </div>
+                        <div class="feedback-content">
+                            Cały czas jestem w biegu – praca, rodzina, siłownia. Znalezienie czasu na siebie jest wyzwaniem. Placenta Firming Cream to mój mały pomocnik. Rano i wieczorem nakładam go na skórę i widzę, jak cera odżywa😍 Szybko, wygodnie i efektywnie!
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback">
+                    <div class="feedback-inner">
+                        <div class="client-info">
+                            <img class="avatar" src="images/Barbara.png" alt="">
+                            <p>Barbara Kamińska</p>
+                        </div>
+                        <div class="feedback-content">
+                            Na początku myślałam, że Placenta Firming Cream to kolejny kosmetyk z wielkimi obietnicami, ale jak bardzo się myliłam! Krem nie tylko odżywia i nawilża, ale też poprawia teksturę skóry. Teraz zawsze mam go przy sobie 🙌
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback">
+                    <div class="feedback-inner">
+                        <div class="client-info">
+                            <img class="avatar" src="images/Dorota.png" alt="">
+                            <p>Dorota Szymańska</p>
+                        </div>
+                        <div class="feedback-content">
+                            Pielęgnacja skóry to ważna część mojego dnia. Placenta Firming Cream idealnie wpasował się w mój rytuał. Lekka konsystencja, przyjemny zapach i widoczne efekty. Teraz mogę patrzeć w lustro z uśmiechem, nawet po ciężkim dniu.😍
+                        </div>
                     </div>
                 </div>
             </div>
@@ -218,20 +476,37 @@
     <footer>
         <div class="footer-inner">
             <div class="footer-left">
-                <div class="price-discount">
-                    <div class="old-price">
-                        <p><s>193zł</s></p>
+                <div class="footer-price-container">
+                    <div class="footer-price">
+                        <p class="old-price"><s>193zł</s></p>
+                        <p class="new-price">129 zł</p>
                     </div>
-                    <div class="discount-card">
+                    <div class="footer-discount-card">
                         50%<br> ZNIŻKA!
                     </div>
                 </div>
-                <p class="price">129 zł</p>
-                <img class="cream-image" src="images/cream.png" alt="">
+                <img class="footer-image" src="images/cream-footer.png" alt="">
+                <div class="some-fancy-things">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
             </div>
             <div class="footer-right">
-                <p>Pospiesz się</p>
-                <a class="order-button" href="#top">Zamówić z rabatem</a>
+                <p class="footer-title">
+                    Pospiesz się! Młodość twojej skóry jest w twoich rękach!
+                </p>
+                <p class="footer-paragraph">
+                    Wypróbuj nasz krem odmładzający, który już odmienił życie tysięcy kobiet. Nie czekaj — podaruj swojej skórze idealną pielęgnację już dziś!
+                </p>
+                <a style="margin: 56px auto 0 auto !important;" class="order-button" href="#top">Zamówić z rabatem</a>
             </div>
         </div>
         <div class="footer-bottom">
