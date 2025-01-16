@@ -55,18 +55,6 @@
             </div>
             <img class="cream-image" src="images/cream.png" alt="">
         </div>
-        <!-- <div class="header-right">
-            <div class="price-discount">
-                <div class="old-price">
-                    <p><s>193zł</s></p>
-                </div>
-                <div class="discount-card">
-                    50%<br> ZNIŻKA!
-                </div>
-            </div>
-            <p class="price">129 zł</p>
-            <img class="cream-image" src="images/cream.png" alt="">
-        </div> -->
     </header>
     <main>
         <section class="clients">
@@ -470,6 +458,17 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="footer-form">
+            <div class="form-to-fill">
+                <p>Do końca zniżki <span id="timer-2" class="timer">timer</span></p>
+                <h1>Zamów teraz!</h1>
+                <form action="/submit" method="POST">
+                    <input placeholder="Imię i nazwisko" type="text" id="name" name="name" required>
+                    <input placeholder="Numer telefonu" type="tel" id="phone" name="phone" required pattern="^\+?[0-9\s\-]{7,15}$" >
+                    <button class="form-button" type="submit">Wyślij</button>
+                </form>
             </div>
         </section>
     </main>

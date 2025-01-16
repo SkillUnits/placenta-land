@@ -1,14 +1,14 @@
-const timerDisplay = document.getElementById('timer');
-let remainingTime = 30 * 60; // 30 хвилин у секундах
+function startTimer(timerId, messageId, initialTime) {
+  let remainingTime = initialTime; // Встановлюємо початковий час
+  const timerDisplay = document.getElementById(timerId);
 
-function formatTime(seconds) {
-  const hours = Math.floor(seconds / 3600).toString().padStart(2, '0');
-  const minutes = Math.floor((seconds % 3600) / 60).toString().padStart(2, '0');
-  const secs = (seconds % 60).toString().padStart(2, '0');
-  return `${hours}:${minutes}:${secs}`;
-}
+  function formatTime(seconds) {
+    const hours = Math.floor(seconds / 3600).toString().padStart(2, '0');
+    const minutes = Math.floor((seconds % 3600) / 60).toString().padStart(2, '0');
+    const secs = (seconds % 60).toString().padStart(2, '0');
+    return `${hours}:${minutes}:${secs}`;
+  }
 
-function startTimer() {
   const timerInterval = setInterval(() => {
     if (remainingTime > 0) {
       remainingTime--;
@@ -18,10 +18,12 @@ function startTimer() {
       timerDisplay.textContent = "00:00:00";
     }
   }, 1000);
+
+  timerDisplay.textContent = formatTime(remainingTime);
 }
 
-// Запуск таймера при завантаженні сторінки
+// Запуск двох таймерів при завантаженні сторінки
 window.onload = () => {
-  timerDisplay.textContent = formatTime(remainingTime);
-  startTimer();
+  startTimer('timer', 'message1', 30 * 60); // Перший таймер
+  startTimer('timer-2', 'message2', 30 * 60); // Другий таймер
 };
